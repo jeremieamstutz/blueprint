@@ -107,7 +107,7 @@ The script checks if folders already exist before creating them, so you can safe
 
 ## 📄 License
 
-This project is open source and available for personal use.
+This project is licensed under the MIT License. Your are free to use, modify and distribute the code as you see fit. See the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
