@@ -4,13 +4,9 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
-// ES modules equivalent of __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Configuration
-const INPUT_FILE = path.join(__dirname, 'taxonomy.txt');
-const OUTPUT_DIR = path.join(__dirname, 'lifeOS');
+const TEMPLATES_DIR = path.join(__dirname, 'templates');
 
 /**
  * Parse a line and determine its indent level and content
@@ -85,37 +81,31 @@ function createFolders(nodes, parentPath) {
  * Main function
  */
 function main() {
-    console.log('=== Taxonomy Folder Creator ===\n');
-    
-    // Check if input file exists
-    if (!fs.existsSync(INPUT_FILE)) {
-        console.error(`Error: Input file not found: ${INPUT_FILE}`);
+    const [, , command, templateName] = process.argv;
+
+    if (command !== 'create' || !templateName) {
+        console.error('Usage: blueprint create <template>');
+        console.error('Example: blueprint create personal');
         process.exit(1);
     }
-    
-    // Read the file
-    console.log(`Reading: ${INPUT_FILE}`);
-    const content = fs.readFileSync(INPUT_FILE, 'utf-8');
-    const lines = content.split('\n');
-    
-    console.log(`Found ${lines.length} lines\n`);
-    
-    // Build the tree structure
-    const tree = buildTree(lines);
-    
-    // Create the output directory
-    if (!fs.existsSync(OUTPUT_DIR)) {
-        fs.mkdirSync(OUTPUT_DIR, { recursive: true });
-        console.log(`Created output directory: ${OUTPUT_DIR}\n`);
+
+    const templatePath = path.join(TEMPLATES_DIR, `${templateName}.txt`);
+
+    if (!fs.existsSync(templatePath)) {
+        console.error(`Error: Template not found: ${templateName}`);
+        console.error(`Looking for: ${templatePath}`);
+        process.exit(1);
     }
-    
-    // Create the folder structure
-    console.log('Creating folder structure:\n');
-    createFolders(tree, OUTPUT_DIR);
-    
-    console.log('\n=== Done! ===');
-    console.log(`Folders created in: ${OUTPUT_DIR}`);
+
+    const outputDir = process.cwd();
+    console.log(`Blueprint: creating "${templateName}" in ${outputDir}\n`);
+
+    const content = fs.readFileSync(templatePath, 'utf-8');
+    const lines = content.split('\n');
+    const tree = buildTree(lines);
+
+    createFolders(tree, outputDir);
+    console.log('\nDone.');
 }
 
-// Run the script
 main();

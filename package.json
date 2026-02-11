@@ -1,9 +1,11 @@
 {
-  "name": "lifeOS",
+  "name": "blueprint",
   "version": "1.0.0",
   "type": "module",
   "author": "Jérémie Amstutz",
   "description": "The blueprint for your digital life",
-  "main": "create-lifeOS.js",
+  "bin": {
+    "blueprint": "./create.js"
+  },
   "license": "MIT"
 }

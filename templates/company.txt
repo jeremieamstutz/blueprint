@@ -1,0 +1,356 @@
+000 IT & Systems
+    010 IT Infrastructure
+        011 Network & servers
+        012 Cloud services
+        013 System documentation
+        014 IT asset inventory
+    020 Business Continuity
+        021 Disaster recovery
+        022 Backup procedures
+        023 Recovery testing
+    030 Digital Assets
+        031 Templates & frameworks
+        032 Media libraries
+        033 Brand assets
+    040 Tools & Software
+        041 Licenses & subscriptions
+        042 Software inventory
+        043 Credentials & API keys
+        044 Automation workflows
+    050 Archives
+        051 Retired systems
+        052 Historical records
+        053 Legal holds
+
+100 Company Governance
+    110 Legal & Compliance
+        111 Incorporation documents
+        112 Bylaws & resolutions
+        113 Regulatory filings
+        114 Compliance reports
+    120 Intellectual Property
+        121 Patents & trademarks
+        122 Copyrights
+        123 Licensing agreements
+        124 IP portfolio
+    130 Contracts
+        131 Master agreements
+        132 Vendor contracts
+        133 Customer contracts
+        134 NDAs
+        135 Contract templates
+    140 Risk Management
+        141 Risk assessments
+        142 Risk register
+        143 Control frameworks
+        144 Third-party risk
+    150 Policies & Ethics
+        151 Code of conduct
+        152 Corporate policies
+        153 Employee handbook
+        154 Privacy policies
+    160 Insurance
+        161 Insurance policies
+        162 Claims management
+        163 Coverage documentation
+
+200 Finance & Accounting
+    210 Financial Planning
+        211 Budgets
+        212 Forecasts
+        213 Financial models
+        214 Sensitivity analysis
+    220 Accounting
+        221 General ledger
+        222 Chart of accounts
+        223 Reconciliations
+        224 Month-end close
+        225 Fixed assets
+    230 Accounts Payable
+        231 Vendor invoices
+        232 Purchase orders
+        233 Expense reports
+        234 AP aging
+    240 Accounts Receivable
+        241 Customer invoices
+        242 Payment tracking
+        243 Collections
+        244 AR aging
+    250 Payroll
+        251 Payroll processing
+        252 Tax withholdings
+        253 Time & attendance
+        254 Payroll reports
+    260 Tax
+        261 Tax returns
+        262 Tax compliance
+        263 Tax documentation
+    270 Treasury
+        271 Cash management
+        272 Banking
+        273 Investments
+    280 Financial Reporting
+        281 Financial statements
+        282 Management reports
+        283 Board reports
+        284 KPI dashboards
+    290 Audit
+        291 External audits
+        292 Internal audits
+        293 Audit findings
+
+300 Human Resources
+    310 Recruitment
+        311 Job descriptions
+        312 Candidate pipeline
+        313 Interview materials
+        314 Offer letters
+        315 Background checks
+    320 Onboarding & Offboarding
+        321 Onboarding checklists
+        322 New hire orientation
+        323 Offboarding procedures
+        324 Exit interviews
+    330 Employee Records
+        331 Personnel files
+        332 Employment contracts
+        333 Job changes
+        334 Termination records
+    340 Compensation & Benefits
+        341 Salary structures
+        342 Bonus programs
+        343 Benefits plans
+        344 Equity programs
+        345 Benefits enrollment
+    350 Learning & Development
+        351 Training programs
+        352 Course materials
+        353 Certifications
+        354 Training records
+    360 Performance Management
+        361 Performance reviews
+        362 Goal setting
+        363 Feedback programs
+        364 Recognition programs
+    370 Employee Relations
+        371 Engagement surveys
+        372 Workplace complaints
+        373 Conflict resolution
+        374 Employee communications
+    380 HR Compliance
+        381 Labor law compliance
+        382 HR policies
+        383 Workplace safety
+        384 HR audits
+
+400 Operations
+    410 Supply Chain
+        411 Supplier management
+        412 Demand planning
+        413 Inventory management
+        414 Supply chain risk
+    420 Procurement
+        421 Procurement policies
+        422 Vendor selection
+        423 RFPs & RFQs
+        424 Purchase orders
+        425 Spend analysis
+    430 Manufacturing
+        431 Production schedules
+        432 Work orders
+        433 Bill of materials
+        434 Equipment maintenance
+    440 Logistics
+        441 Shipping & delivery
+        442 Warehouse operations
+        443 Transportation
+        444 Returns processing
+    450 Quality Assurance
+        451 Quality standards
+        452 Inspection procedures
+        453 Defect tracking
+        454 Quality metrics
+    460 Health, Safety & Environment
+        461 Safety policies
+        462 Incident reports
+        463 Safety training
+        464 Environmental compliance
+    470 Facilities
+        471 Real estate & leases
+        472 Space planning
+        473 Maintenance
+        474 Building security
+    480 Process Management
+        481 SOPs
+        482 Process documentation
+        483 Workflow diagrams
+        484 Process improvement
+
+500 Sales & Marketing
+    510 Marketing Strategy
+        511 Marketing plans
+        512 Market research
+        513 Competitive analysis
+        514 Marketing budgets
+    520 Brand Management
+        521 Brand guidelines
+        522 Visual identity
+        523 Messaging
+        524 Brand assets
+    530 Content Marketing
+        531 Content strategy
+        532 Blog & articles
+        533 Case studies
+        534 Content calendar
+    540 Digital Marketing
+        541 Website management
+        542 SEO & SEM
+        543 Email marketing
+        544 Social media
+        545 Analytics
+    550 Events
+        551 Event planning
+        552 Trade shows
+        553 Webinars
+        554 Event materials
+    560 Public Relations
+        561 Press releases
+        562 Media relations
+        563 Crisis communications
+        564 PR metrics
+    570 Sales Operations
+        571 Sales processes
+        572 Territory management
+        573 Sales forecasting
+        574 CRM management
+        575 Sales enablement
+    580 Customer Acquisition
+        581 Lead generation
+        582 Sales pipeline
+        583 Proposals & quotes
+        584 Sales presentations
+        585 Win/loss analysis
+    590 Customer Success
+        591 Account management
+        592 Renewals
+        593 Customer onboarding
+        594 Churn analysis
+
+600 Product & Engineering
+    610 Product Strategy
+        611 Product vision
+        612 Product roadmaps
+        613 Market requirements
+        614 Pricing strategy
+        615 Go-to-market
+    620 Product Management
+        621 Feature specifications
+        622 User stories
+        623 Product backlog
+        624 Release planning
+        625 Product documentation
+    630 User Experience
+        631 UX research
+        632 User personas
+        633 Wireframes & prototypes
+        634 Usability testing
+        635 Design system
+    640 Engineering
+        641 Architecture docs
+        642 Technical specs
+        643 Code repositories
+        644 API documentation
+        645 Development standards
+    650 Quality & Testing
+        651 Test plans
+        652 Test automation
+        653 Bug tracking
+        654 QA reports
+    660 DevOps
+        661 Deployment procedures
+        662 CI/CD pipelines
+        663 Monitoring
+        664 Incident management
+    670 Data & Analytics
+        671 Data architecture
+        672 Data pipelines
+        673 Analytics dashboards
+        674 Data governance
+        675 Data catalog
+    680 Research & Development
+        681 Research projects
+        682 Proof of concepts
+        683 Innovation initiatives
+
+700 Customer Support
+    710 Support Operations
+        711 Support processes
+        712 Ticket management
+        713 SLA management
+        714 Support metrics
+    720 Knowledge Management
+        721 Knowledge base
+        722 FAQs
+        723 Help articles
+        724 User manuals
+        725 Release notes
+    730 Customer Communications
+        731 Response templates
+        732 Communication guidelines
+        733 Transcripts & recordings
+        734 Customer notifications
+    740 Customer Feedback
+        741 Surveys
+        742 NPS scores
+        743 Bug reports
+        744 Feature requests
+        745 Feedback analysis
+
+800 Business Development
+    810 Strategic Partnerships
+        811 Partnership strategy
+        812 Partnership agreements
+        813 Partner management
+        814 Co-marketing
+    820 Mergers & Acquisitions
+        821 M&A strategy
+        822 Due diligence
+        823 Valuation models
+        824 Integration plans
+    830 Business Intelligence
+        831 Market analysis
+        832 Competitive intelligence
+        833 Industry research
+        834 Trend analysis
+    840 Corporate Development
+        841 Growth strategies
+        842 Market expansion
+        843 Business cases
+        844 Strategic initiatives
+    850 Investor Relations
+        851 Investor communications
+        852 Shareholder reports
+        853 Earnings materials
+        854 Analyst relations
+
+900 Communications
+    910 Internal Communications
+        911 Company announcements
+        912 Newsletters
+        913 Town halls
+        914 Intranet content
+    920 External Communications
+        921 Corporate communications
+        922 Annual reports
+        923 Media statements
+        924 Corporate website
+    930 Stakeholder Relations
+        931 Board communications
+        932 Government relations
+        933 Community relations
+        934 Industry associations
+    940 ESG & Sustainability
+        941 ESG strategy
+        942 Environmental initiatives
+        943 Social responsibility
+        944 ESG reporting
