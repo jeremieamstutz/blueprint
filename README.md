@@ -1,6 +1,6 @@
-# The Blueprint
+# Blueprint
 
-**The Blueprint** is a CLI tool that creates a folder tree structure based on a template file.
+**Blueprint** is a CLI tool that creates a folder tree structure based on a template file.
 
 ## 📋 Templates
 
